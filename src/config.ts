@@ -29,6 +29,40 @@ Do NOT use for language detection -- use text_detect_language instead. Do NOT us
         },
         required: ["text"],
       },
+      outputSchema: {
+          "type": "object",
+          "properties": {
+            "audio": {
+              "type": "string",
+              "description": "Base64-encoded MP3 audio"
+            },
+            "mimeType": {
+              "type": "string",
+              "description": "Audio MIME type (audio/mpeg)"
+            },
+            "format": {
+              "type": "string",
+              "description": "Audio format (mp3)"
+            },
+            "language": {
+              "type": "string",
+              "description": "Language code"
+            },
+            "textLength": {
+              "type": "number",
+              "description": "Input text length"
+            },
+            "audioSizeBytes": {
+              "type": "number",
+              "description": "Audio file size in bytes"
+            }
+          },
+          "required": [
+            "audio",
+            "mimeType",
+            "format"
+          ]
+        },
     },
   ],
 };
