@@ -1,18 +1,1 @@
-{
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.Br0ski777/text-to-speech",
-  "title": "Text to Speech API",
-  "description": "Convert text to MP3 speech audio in 50+ languages. x402 micropayment.",
-  "version": "1.0.0",
-  "websiteUrl": "https://github.com/Br0ski777/text-to-speech-x402",
-  "repository": {
-    "url": "https://github.com/Br0ski777/text-to-speech-x402",
-    "source": "github"
-  },
-  "remotes": [
-    {
-      "type": "sse",
-      "url": "https://text-to-speech-x402-production.up.railway.app/mcp"
-    }
-  ]
-}
+{"$schema":"https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json","name":"io.github.Br0ski777/text-to-speech","title":"Text to Speech API","description":"Convert text to MP3 speech audio in 50+ languages. x402 micropayment.","version":"1.0.0","websiteUrl":"https://github.com/Br0ski777/text-to-speech-x402","repository":{"url":"https://github.com/Br0ski777/text-to-speech-x402","source":"github"},"remotes":[{"type":"sse","url":"https://text-to-speech-production-0f12.up.railway.app/mcp"}]}
