@@ -9,7 +9,7 @@ export const API_CONFIG: ApiConfig = {
     {
       method: "POST",
       path: "/api/speak",
-      price: "$0.005",
+      price: "$0.012",
       description: "Convert text to speech audio",
       toolName: "media_text_to_speech",
       toolDescription: `Use this when you need to convert text to speech audio. Returns base64-encoded MP3 audio in JSON.
