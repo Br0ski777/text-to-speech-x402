@@ -37,7 +37,7 @@ Any x402-aware client ([`@x402/fetch`](https://www.npmjs.com/package/@x402/fetch
 
 | Tool | Method | Path | Price | Description |
 |---|---|---|---|---|
-| `media_text_to_speech` | POST | `/api/speak` | $0.005 | Convert text to speech audio |
+| `media_text_to_speech` | POST | `/api/speak` | $0.012 | Convert text to speech audio |
 
 ### `media_text_to_speech`
 
